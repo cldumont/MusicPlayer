@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		441BF1D9204DEA0100FE756E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BF1D8204DEA0100FE756E /* AppDelegate.swift */; };
-		441BF1DB204DEA0100FE756E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BF1DA204DEA0100FE756E /* ViewController.swift */; };
 		441BF1DE204DEA0100FE756E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441BF1DC204DEA0100FE756E /* Main.storyboard */; };
 		441BF1E0204DEA0100FE756E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441BF1DF204DEA0100FE756E /* Assets.xcassets */; };
 		441BF1E3204DEA0100FE756E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441BF1E1204DEA0100FE756E /* LaunchScreen.storyboard */; };
 		441BF1EE204DEA0100FE756E /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BF1ED204DEA0100FE756E /* MusicPlayerTests.swift */; };
 		441BF1F9204DEA0100FE756E /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BF1F8204DEA0100FE756E /* MusicPlayerUITests.swift */; };
+		441BF207204DEAFB00FE756E /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BF206204DEAFB00FE756E /* MusicViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		441BF1D5204DEA0100FE756E /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441BF1D8204DEA0100FE756E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		441BF1DA204DEA0100FE756E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		441BF1DD204DEA0100FE756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441BF1DF204DEA0100FE756E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441BF1E2204DEA0100FE756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		441BF1F4204DEA0100FE756E /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		441BF1F8204DEA0100FE756E /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		441BF1FA204DEA0100FE756E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441BF206204DEAFB00FE756E /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				441BF1D8204DEA0100FE756E /* AppDelegate.swift */,
-				441BF1DA204DEA0100FE756E /* ViewController.swift */,
+				441BF206204DEAFB00FE756E /* MusicViewController.swift */,
 				441BF1DC204DEA0100FE756E /* Main.storyboard */,
 				441BF1DF204DEA0100FE756E /* Assets.xcassets */,
 				441BF1E1204DEA0100FE756E /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441BF1DB204DEA0100FE756E /* ViewController.swift in Sources */,
+				441BF207204DEAFB00FE756E /* MusicViewController.swift in Sources */,
 				441BF1D9204DEA0100FE756E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
