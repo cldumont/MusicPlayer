@@ -19,7 +19,12 @@ class MusicViewController: UIViewController {
     }
 
     @IBAction func genreButtonTapped(_ sender: UIButton) {
-        playGenre(genre: sender.currentTitle!)
+        MPMediaLibrary.requestAuthorization { (status) in
+            if status == .authorized {
+                self.playGenre(genre: sender.currentTitle!)
+            }
+        }
+        
     }
     
     @IBAction func stopButtonTapped(_ sender: UIButton) {
